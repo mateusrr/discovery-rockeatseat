@@ -1,0 +1,65 @@
+<script>
+
+// Váriavel de nome weight.
+    let weight
+
+// Tipo de dado é a variável.
+    console.log(typeof weight)
+
+/* Declarar variável e atribuição de valores
+    - name: String
+    - age: Number (integer)
+    - stars: Number (float)
+    - isSubscribed: Boolean
+*/
+
+    let name, age, stars, isSubscribed
+    name = "Maria"
+    age = 14
+    stars = 2.5
+    isSubscribed = true 
+
+// Tipo de dado Student
+
+    let student = {
+        name: "Maria",
+        age: 14,
+        weight: 42.5,
+        isSubscribed: true
+
+    }
+
+    console.log(typeof student)
+
+    console.log(`${student.name} de idade ${student.age} pesa ${student.weight} kg.`)
+
+// Atribuição de Array vazio
+
+    let students = []
+
+// Retribuir valor para a variável acima
+
+    students = [
+        student
+    ]
+    console.log(students)
+
+// posição 0
+
+    console.log(students[0])
+
+// novo student na posição 1
+
+    const John = {
+        name: "John",
+        age: 20,
+        weight: 40.2,
+        isSubscribed: true
+    }
+
+    // uma das formas de alterar
+    students[1] = john
+    console.log(students)
+
+
+</script>
