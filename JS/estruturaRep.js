@@ -40,4 +40,3 @@ let person = {
         console.log(propety)
         console.log(person[propety])
     }
-*/
